@@ -176,6 +176,11 @@ nav > ul {
     padding: 120px 0;
 }
 
+svg {
+    height: 64;
+    width: 64;
+}
+
 .list-team {
     display: flex;
     gap: 24px;
