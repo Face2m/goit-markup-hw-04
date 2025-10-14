@@ -130,8 +130,12 @@ nav > ul {
 }
 
 .dark-background {
-    background-image: url(/images/Dark-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-sect-1.jpg);
     background-color: #2e2f42;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
     padding: 188px 0;
 }
 
@@ -160,6 +164,7 @@ nav > ul {
     letter-spacing: 0.04em;
     margin: auto;
     margin-top: 2em;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
@@ -186,6 +191,17 @@ nav > ul {
 .third-sect {
     background-color: #F4F4FD;
     padding: 120px 0;
+}
+
+.icon-list-item {
+    align-items: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    display: flex;
+    height: 112px;
+    margin-bottom: 8px;
+    justify-content: center;
 }
 
 .second-title {
