@@ -327,7 +327,7 @@ nav > ul {
     width: 100%;
 }
 
-.list-cont-portf-1 {
+.list-cont-portfolio {
     position: relative;
     overflow: hidden;
 }
@@ -380,4 +380,10 @@ nav > ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.footer-cont {
+    align-items: baseline;
+    display: flex;
+    margin-right: 120px;
 }
