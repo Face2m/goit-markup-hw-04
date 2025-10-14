@@ -79,13 +79,25 @@ nav > ul {
 }
 
 .nav-link {
-    color: #2e2f42;
+    color: #404bbf;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
     position: relative;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link::after {
+    background-color: #404bbf;
+    border-radius: 2px;
+    bottom: -1px;
+    content: '';
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .nav-link:hover,
@@ -109,6 +121,7 @@ nav > ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover,
