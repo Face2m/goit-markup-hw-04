@@ -383,7 +383,10 @@ nav > ul {
 }
 
 .footer-cont {
+    margin-right: 120px;
+}
+
+.cont-class-foo {
     align-items: baseline;
     display: flex;
-    margin-right: 120px;
 }
