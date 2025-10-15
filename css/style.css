@@ -339,6 +339,7 @@ nav > ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     height: 100%;
+    padding: 40px 32px;
     position: absolute;
     top: 0;
     transform: translateY(100%);
