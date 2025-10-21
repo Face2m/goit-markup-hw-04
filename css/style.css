@@ -81,6 +81,7 @@ nav > ul {
 }
 
 .nav-link {
+    color: #2E2F42;
     font-weight: 500;
     display: block;
     line-height: 1.5;
@@ -92,7 +93,7 @@ nav > ul {
 }
 
 .nav-link.current {
-    color: #404BBF;  
+    color: #2E2F42;  
 }
 
 .nav-link.current::after {
@@ -258,12 +259,12 @@ nav > ul {
 .icons-list {
     gap: 24px;
     display: flex;
+    margin-top: 20px;
     justify-content: center;
 }
 
 .icons-list-item {
     height: 40px;
-    margin-top: 20px;
     width: 40px;
 }
 
